@@ -17,9 +17,6 @@ class  ApiService: UITableViewController {
     
     let defaultURL = "http://www.recipepuppy.com/api/?i=onions,garlic&q=omelet&p=3"
     var searchURL : String = ""
-    let a = 5
-    let b = 7
-    let d = 8
     
     func getRecipeByDefault (callback: (RecipeResponse?, ApiError?) -> Void) {
         
