@@ -1,0 +1,6 @@
+framework module Pods_Omelet {
+  umbrella header "Pods-Omelet-umbrella.h"
+
+  export *
+  module * { export * }
+}

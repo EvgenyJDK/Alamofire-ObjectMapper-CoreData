@@ -1,0 +1,464 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		76386C97EB18829050B549B1 /* Pods_Omelet.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1616CF62AE997E10B168BE8C /* Pods_Omelet.framework */; };
+		C33CFAFD1E8984200051EFD5 /* CoreDataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = C33CFAFC1E8984200051EFD5 /* CoreDataService.swift */; };
+		C361001F1E87E36A00C5A6FC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C361001E1E87E36A00C5A6FC /* AppDelegate.swift */; };
+		C36100211E87E36A00C5A6FC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C36100201E87E36A00C5A6FC /* ViewController.swift */; };
+		C36100241E87E36A00C5A6FC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C36100221E87E36A00C5A6FC /* Main.storyboard */; };
+		C36100271E87E36A00C5A6FC /* Omelet.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = C36100251E87E36A00C5A6FC /* Omelet.xcdatamodeld */; };
+		C36100291E87E36A00C5A6FC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C36100281E87E36A00C5A6FC /* Assets.xcassets */; };
+		C361002C1E87E36A00C5A6FC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C361002A1E87E36A00C5A6FC /* LaunchScreen.storyboard */; };
+		C36100371E88068600C5A6FC /* RecipeTableCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C36100361E88068600C5A6FC /* RecipeTableCell.swift */; };
+		C3F853801E8822EC00D65D1E /* ApiService.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3F8537F1E8822EC00D65D1E /* ApiService.swift */; };
+		C3F853821E88233900D65D1E /* RecipeResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3F853811E88233900D65D1E /* RecipeResponse.swift */; };
+		C3F853841E8828E900D65D1E /* ApiError.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3F853831E8828E900D65D1E /* ApiError.swift */; };
+		C3FAEB311E880BE800C53434 /* RecipeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3FAEB301E880BE800C53434 /* RecipeViewController.swift */; };
+		C3FAEB341E88141500C53434 /* Recipe.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3FAEB331E88141500C53434 /* Recipe.swift */; };
+		C3FAEB3A1E88181300C53434 /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = C3FAEB391E88181300C53434 /* Podfile */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1616CF62AE997E10B168BE8C /* Pods_Omelet.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Omelet.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1805D7C3AB0EFD239546E507 /* Pods-Omelet.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Omelet.release.xcconfig"; path = "Pods/Target Support Files/Pods-Omelet/Pods-Omelet.release.xcconfig"; sourceTree = "<group>"; };
+		AA7D2267D15EECF8D44A7F3D /* Pods-Omelet.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Omelet.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Omelet/Pods-Omelet.debug.xcconfig"; sourceTree = "<group>"; };
+		C33CFAFC1E8984200051EFD5 /* CoreDataService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CoreDataService.swift; sourceTree = "<group>"; };
+		C3408D911E8AF224001FCDF9 /* ReachabilitySwift.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ReachabilitySwift.framework; path = "../../../../Library/Developer/Xcode/DerivedData/Omelet-ftzssarqywpvioeuabpwqspifszp/Build/Products/Debug-iphonesimulator/ReachabilitySwift/ReachabilitySwift.framework"; sourceTree = "<group>"; };
+		C361001B1E87E36A00C5A6FC /* Omelet.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Omelet.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C361001E1E87E36A00C5A6FC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		C36100201E87E36A00C5A6FC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		C36100231E87E36A00C5A6FC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C36100261E87E36A00C5A6FC /* Omelet.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Omelet.xcdatamodel; sourceTree = "<group>"; };
+		C36100281E87E36A00C5A6FC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C361002B1E87E36A00C5A6FC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C361002D1E87E36A00C5A6FC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C36100361E88068600C5A6FC /* RecipeTableCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RecipeTableCell.swift; sourceTree = "<group>"; };
+		C3F8537F1E8822EC00D65D1E /* ApiService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ApiService.swift; sourceTree = "<group>"; };
+		C3F853811E88233900D65D1E /* RecipeResponse.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RecipeResponse.swift; sourceTree = "<group>"; };
+		C3F853831E8828E900D65D1E /* ApiError.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ApiError.swift; sourceTree = "<group>"; };
+		C3FAEB301E880BE800C53434 /* RecipeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RecipeViewController.swift; sourceTree = "<group>"; };
+		C3FAEB331E88141500C53434 /* Recipe.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Recipe.swift; sourceTree = "<group>"; };
+		C3FAEB391E88181300C53434 /* Podfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C36100181E87E36A00C5A6FC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				76386C97EB18829050B549B1 /* Pods_Omelet.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6AA4A66B2ABAD4A5050B7220 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C3408D911E8AF224001FCDF9 /* ReachabilitySwift.framework */,
+				1616CF62AE997E10B168BE8C /* Pods_Omelet.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C33CFAFB1E89837F0051EFD5 /* Core Data */ = {
+			isa = PBXGroup;
+			children = (
+				C33CFAFC1E8984200051EFD5 /* CoreDataService.swift */,
+			);
+			name = "Core Data";
+			sourceTree = "<group>";
+		};
+		C36100121E87E36A00C5A6FC = {
+			isa = PBXGroup;
+			children = (
+				C3FAEB391E88181300C53434 /* Podfile */,
+				C361001D1E87E36A00C5A6FC /* Omelet */,
+				C361001C1E87E36A00C5A6FC /* Products */,
+				FAFE702C3AE87A011C4AC007 /* Pods */,
+				6AA4A66B2ABAD4A5050B7220 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		C361001C1E87E36A00C5A6FC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C361001B1E87E36A00C5A6FC /* Omelet.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C361001D1E87E36A00C5A6FC /* Omelet */ = {
+			isa = PBXGroup;
+			children = (
+				C3FAEB2C1E880A3000C53434 /* API */,
+				C33CFAFB1E89837F0051EFD5 /* Core Data */,
+				C3FAEB321E8813EB00C53434 /* Model */,
+				C36100331E8805BC00C5A6FC /* Views */,
+				C3FAEB2F1E880BA400C53434 /* Controllers */,
+				C361001E1E87E36A00C5A6FC /* AppDelegate.swift */,
+				C36100201E87E36A00C5A6FC /* ViewController.swift */,
+				C36100221E87E36A00C5A6FC /* Main.storyboard */,
+				C36100281E87E36A00C5A6FC /* Assets.xcassets */,
+				C361002A1E87E36A00C5A6FC /* LaunchScreen.storyboard */,
+				C361002D1E87E36A00C5A6FC /* Info.plist */,
+				C36100251E87E36A00C5A6FC /* Omelet.xcdatamodeld */,
+			);
+			path = Omelet;
+			sourceTree = "<group>";
+		};
+		C36100331E8805BC00C5A6FC /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				C36100361E88068600C5A6FC /* RecipeTableCell.swift */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		C3FAEB2C1E880A3000C53434 /* API */ = {
+			isa = PBXGroup;
+			children = (
+				C3F8537F1E8822EC00D65D1E /* ApiService.swift */,
+				C3F853811E88233900D65D1E /* RecipeResponse.swift */,
+				C3F853831E8828E900D65D1E /* ApiError.swift */,
+			);
+			name = API;
+			sourceTree = "<group>";
+		};
+		C3FAEB2F1E880BA400C53434 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				C3FAEB301E880BE800C53434 /* RecipeViewController.swift */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		C3FAEB321E8813EB00C53434 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				C3FAEB331E88141500C53434 /* Recipe.swift */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		FAFE702C3AE87A011C4AC007 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				AA7D2267D15EECF8D44A7F3D /* Pods-Omelet.debug.xcconfig */,
+				1805D7C3AB0EFD239546E507 /* Pods-Omelet.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C361001A1E87E36A00C5A6FC /* Omelet */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C36100301E87E36A00C5A6FC /* Build configuration list for PBXNativeTarget "Omelet" */;
+			buildPhases = (
+				BC85E47629CF0BBEFBCA5DBE /* [CP] Check Pods Manifest.lock */,
+				C36100171E87E36A00C5A6FC /* Sources */,
+				C36100181E87E36A00C5A6FC /* Frameworks */,
+				C36100191E87E36A00C5A6FC /* Resources */,
+				AB0267099D6600303E4F30C7 /* [CP] Embed Pods Frameworks */,
+				FF5EC0D9006796AF273DBD65 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Omelet;
+			productName = Omelet;
+			productReference = C361001B1E87E36A00C5A6FC /* Omelet.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C36100131E87E36A00C5A6FC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = Administrator;
+				TargetAttributes = {
+					C361001A1E87E36A00C5A6FC = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+				};
+			};
+			buildConfigurationList = C36100161E87E36A00C5A6FC /* Build configuration list for PBXProject "Omelet" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C36100121E87E36A00C5A6FC;
+			productRefGroup = C361001C1E87E36A00C5A6FC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C361001A1E87E36A00C5A6FC /* Omelet */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C36100191E87E36A00C5A6FC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C361002C1E87E36A00C5A6FC /* LaunchScreen.storyboard in Resources */,
+				C36100291E87E36A00C5A6FC /* Assets.xcassets in Resources */,
+				C3FAEB3A1E88181300C53434 /* Podfile in Resources */,
+				C36100241E87E36A00C5A6FC /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		AB0267099D6600303E4F30C7 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Omelet/Pods-Omelet-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BC85E47629CF0BBEFBCA5DBE /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		FF5EC0D9006796AF273DBD65 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Omelet/Pods-Omelet-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C36100171E87E36A00C5A6FC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C36100371E88068600C5A6FC /* RecipeTableCell.swift in Sources */,
+				C3FAEB341E88141500C53434 /* Recipe.swift in Sources */,
+				C3FAEB311E880BE800C53434 /* RecipeViewController.swift in Sources */,
+				C36100211E87E36A00C5A6FC /* ViewController.swift in Sources */,
+				C361001F1E87E36A00C5A6FC /* AppDelegate.swift in Sources */,
+				C3F853841E8828E900D65D1E /* ApiError.swift in Sources */,
+				C3F853801E8822EC00D65D1E /* ApiService.swift in Sources */,
+				C33CFAFD1E8984200051EFD5 /* CoreDataService.swift in Sources */,
+				C36100271E87E36A00C5A6FC /* Omelet.xcdatamodeld in Sources */,
+				C3F853821E88233900D65D1E /* RecipeResponse.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		C36100221E87E36A00C5A6FC /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C36100231E87E36A00C5A6FC /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C361002A1E87E36A00C5A6FC /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C361002B1E87E36A00C5A6FC /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C361002E1E87E36A00C5A6FC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C361002F1E87E36A00C5A6FC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C36100311E87E36A00C5A6FC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AA7D2267D15EECF8D44A7F3D /* Pods-Omelet.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Omelet/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.app.Omelet;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		C36100321E87E36A00C5A6FC /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1805D7C3AB0EFD239546E507 /* Pods-Omelet.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Omelet/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.app.Omelet;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C36100161E87E36A00C5A6FC /* Build configuration list for PBXProject "Omelet" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C361002E1E87E36A00C5A6FC /* Debug */,
+				C361002F1E87E36A00C5A6FC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C36100301E87E36A00C5A6FC /* Build configuration list for PBXNativeTarget "Omelet" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C36100311E87E36A00C5A6FC /* Debug */,
+				C36100321E87E36A00C5A6FC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		C36100251E87E36A00C5A6FC /* Omelet.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				C36100261E87E36A00C5A6FC /* Omelet.xcdatamodel */,
+			);
+			currentVersion = C36100261E87E36A00C5A6FC /* Omelet.xcdatamodel */;
+			path = Omelet.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = C36100131E87E36A00C5A6FC /* Project object */;
+}

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model userDefinedModelVersionIdentifier="" type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="10174" systemVersion="15G31" minimumToolsVersion="Automatic">
+    <entity name="RecipeEntity" syncable="YES">
+        <attribute name="recipeDescription" attributeType="String" syncable="YES"/>
+        <attribute name="recipeHref" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="recipeImage" optional="YES" attributeType="Binary" syncable="YES"/>
+        <attribute name="recipeTitle" attributeType="String" syncable="YES"/>
+    </entity>
+    <elements>
+        <element name="RecipeEntity" positionX="-54" positionY="-9" width="128" height="105"/>
+    </elements>
+</model>
