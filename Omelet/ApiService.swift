@@ -19,6 +19,7 @@ class  ApiService: UITableViewController {
     var searchURL : String = ""
     let a = 5
     let b = 7
+    let d = 8
     
     func getRecipeByDefault (callback: (RecipeResponse?, ApiError?) -> Void) {
         
